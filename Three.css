@@ -1,0 +1,158 @@
+@keyframes changeColor {
+  0% {
+    background-color: rgba(255, 182, 182, 0.603)
+  }
+
+  10% {
+    background-color: rgb(252, 115, 115)
+  }
+
+  20% {
+    background-color: rgb(250, 178, 95)
+  }
+
+  30% {
+    background-color: rgb(247, 223, 87)
+  }
+
+  40% {
+    background-color: rgb(186, 252, 100)
+  }
+
+  50% {
+    background-color: rgb(104, 253, 196)
+  }
+
+  60% {
+    background-color: rgb(117, 193, 255)
+  }
+
+  70% {
+    background-color: rgb(140, 120, 250)
+  }
+
+  80% {
+    background-color: rgb(207, 123, 255)
+  }
+
+  90% {
+    background-color: rgb(246, 141, 255)
+  }
+
+  100% {
+    background-color: rgb(255, 171, 220)
+  }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-container {
+  display: inline-block;
+  text-align: center;
+  background-color: gainsboro;
+  border-radius: 10px;
+}
+
+#registration-form {
+  display: inline-block;
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  height: 400px;
+  border-radius: 15px;
+  background-color: rgb(250, 178, 95);
+}
+
+#registration-form:hover {
+  animation-name: changeColor;
+  animation-duration: 30s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+.form-group {
+
+  width: 90%;
+  margin: 10px;
+
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bolder;
+}
+
+label {
+  margin-top: 5px;
+}
+
+input {
+  padding: 5px;
+  transition-property: padding border;
+  /* flex-grow: 1; */
+}
+
+input:hover {
+  padding: 8px;
+  border: 2px solid black;
+  border-radius: 5px;
+
+}
+
+.form-group-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border: none;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: aqua;
+  font-size: medium;
+  font-weight: bolder;
+
+
+}
+
+button:hover, .styles:hover {
+  animation-name: changeColor;
+  animation-duration: 30s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  border: none;
+}
+.styles{
+  margin: 5px;
+  padding: 10px;
+  width: 330px;
+  border-radius: 10px;
+  background-color: antiquewhite;
+}
+
+.stylesheets{
+  margin-top: 0px;
+  background-color: azure;
+  border: 2px solid rgba(240, 255, 255, 0.432);
+}
+
+@media screen and (max-width: 985px) {
+  html{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+}
