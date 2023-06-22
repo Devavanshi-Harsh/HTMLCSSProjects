@@ -1,0 +1,67 @@
+body {
+  background-color: #A7ECEE;
+}
+h1{
+  background-color: #99DBF5;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-container {
+  border-radius: 10px;
+
+  background-color: #FFEEBB;
+  text-align: center;
+  font-size: x-large;
+  padding: 10px;
+  width: 30%;
+  display: block;
+  margin: auto;
+}
+
+.form-group {
+
+  display: block;
+  margin: auto;
+  text-align: left;
+  font-weight: bolder;
+  width: 380px;
+  padding: 5px;
+}
+
+.textInputs {
+  background-color: rgb(167, 236, 238);
+  width: 350px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.radio-group {
+  display: inline;
+  margin: 20px;
+
+  font-weight: 200;
+  font-size: large;
+  text-align: center;
+}
+
+button {
+  background-color: #9AC5F4;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+  font-size: large;
+  font-weight: bolder;
+  font-stretch: expanded;
+}
+.select{
+
+  background-color: rgb(167, 236, 238);
+  font-size: large;
+  border-radius: 5px;
+}
+.calender{
+  background-color: rgb(167, 236, 238);
+  font-size: large;
+}
