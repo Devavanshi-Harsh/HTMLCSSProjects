@@ -45,9 +45,7 @@
 }
 
 body {
-  background-image: url(AnimatedCover.png);
-  background-size: cover;
-  background-color: blue;
+  background-color: rgba(0, 0, 9, 0.756);
   display: flex;
   flex-direction: row;
   align-items: center;
